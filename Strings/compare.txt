@@ -1,0 +1,2 @@
+compareTo() -> here 'A' and 'a' is treated differently.
+comparetoIngnore() -> here 'A' and 'a' is treated equally.
