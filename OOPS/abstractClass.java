@@ -4,18 +4,15 @@ public class abstractClass {
         h.eat();
         h.walk();
         System.out.println(h.color);
-
         Chicken c = new Chicken();
         c.eat();
         c.walk();
-
         Mustang myHorse = new Mustang();
     }
 }
 
 abstract class Animal {
     String color;
-
     Animal() {
         System.out.println("animal constructor called");
     }
@@ -42,7 +39,6 @@ class Mustang extends Horse {
         System.out.println("Horse Constructor Called");
     }
 }
-
 class Chicken extends Animal {
     void changeColor() {
         color = "dark brown";
