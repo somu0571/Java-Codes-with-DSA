@@ -25,4 +25,4 @@ class King implements ChessPlayer {
     public void moves() {
         System.out.println("up, down, left, right, diagonal - (by 1 step)");
     }
-}
+}                                       
